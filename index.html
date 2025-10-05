@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Diwali Greeting Card</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="card">
+    <h1>🪔 Diwali Wishes 🪔</h1>
+    <input type="text" id="nameInput" placeholder="Enter your name" />
+    <button onclick="showWish()">Get My Blessing</button>
+
+    <div id="wishBox" class="hidden">
+      <p id="wishMessage"></p>
+      <div class="fireworks">🎆 🎇 🪔 🎆 🎇</div>
+      <button onclick="playMusic()">🔊 Play Music</button>
+      <button onclick="shareOnWhatsApp()">📲 Share on WhatsApp</button>
+      <audio id="music" src="diwali-music.mp3" preload="auto"></audio>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
